@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="ms.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <a href="https://github.com/mertkoroglu"
+        ><img src="./icons8-github-50.png" alt="my github"
+      /></a>
+      <span>Sort Visualizer</span>
+    </div>
+    <div id="top">
+      <div id="inputs">
+        <select id="drop">
+          <option value="qs">Quick Sort</option>
+          <option value="bs">Bubble Sort</option>
+          <option value="is">Insertion Sort</option>
+          <option value="ss">Selection Sort</option>
+        </select>
+        <input type="button" value="Choose" id="btn" />
+        <input type="button" value="Shuffle" id="btn2" />
+      </div>
+      <div id="desc"></div>
+    </div>
+
+    <div id="array"></div>
+    <div id="count"></div>
+    <br />
+    <h2 class="range" style="text-align: center"></h2>
+    <script src="ms.js"></script>
+  </body>
+</html>
